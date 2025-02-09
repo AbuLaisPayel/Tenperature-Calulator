@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="calculator">
+        <form action="">
+           
+                <h1>Temperature Conversion</h1>
+               
+                <input type="number" id="textbox" value="0"><br>
+                <input type="radio" name="unit" id="ctf">
+                <label for="ctf">Celcius ➡ Fahrenheit </label><br>
+               
+                <input type="radio" name="unit" id="ftc">
+                <label for="ftc">Fahrenheit ➡ Celcius</label><br>
+
+                <input type="radio" name="unit" id="ctk">
+                <label for="ctk">Celcius ➡ Kelvin</label><br>
+
+                <input type="radio" name="unit" id="ktc">
+                <label for="ktc">Kelvin ➡  Celcius</label><br>
+
+                <input type="radio" name="unit" id="ftk">
+                <label for="ftk">Fahrenheit ➡ Kelvin</label><br>
+
+                <input type="radio" name="unit" id="ktf">
+                <label for="ktf">Kelvin ➡ Fahrenheit</label><br>
+
+                <button clas="btn btn-danger" type="button" onclick="convert()">Convert</button>
+                <p id="result"></p>
+            
+        </form>
+    </div>
+    <footer class="footer_area">
+        <div class="container">
+            <div class="copyright">
+                <div class="all_right"><p>&copy; Copyright 2025 Zabir Express. All right reserve</p></div>
+                <div class="developby"> <p><b>Developed by Md. Abu Lais</b>, <i> mobile: +8801713720275</i></p></div>
+         </div>
+        </div>
+         
+    </footer>
+<script src="t.js"></script>    
+</body>
+</html>

@@ -1,0 +1,169 @@
+body{
+    font-family: Arial, Helvetica, sans-serif ;
+    
+    background-image: url("img/DSC00108.JPG");
+    
+    background-size: 110vh ;
+    background-repeat: no-repeat;
+    
+}
+.calculator{
+    position: absolute;
+    top: 90px;
+    left: 750px;
+}
+h1{
+    color: hsl(223, 100%, 64%);
+}
+form{
+    background-color: hsl(60, 7%, 97%);
+    text-align: center;
+    max-width: 350px;
+    margin: auto;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px hsl(0, 0%, 0%, 0.7);
+}
+input#textbox{
+    display: block;
+    width: 90%;
+    height: 40px;
+    padding: 0.375rem 0.75rem;
+    font-size: 1.6rem;
+    font-weight: bold;
+    line-height: 1.7;
+    text-align: right;
+    color: #212529;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #dee2e6;
+    border-radius: 0.375rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+input#textbox:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: #dee2e6;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgba(212, 71, 20, 0.25);
+}
+input#textbox::-webkit-date-and-time-value {
+    min-width: 85px;
+    height: 1.5em;
+    margin: 0;
+}
+input#textbox::-webkit-datetime-edit {
+    display: block;
+    padding: 0;
+}
+input#textbox:disabled {
+    background-color: #e9ecef;
+    opacity: 1;
+}
+input#textbox.plaintext {
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0;
+    margin-bottom: 0;
+    line-height: 1.5;
+    color: #dee2e6;
+    background-color: transparent;
+    border: solid transparent;
+    border-width: 1px 0;
+}
+input#textbox:focus {
+    outline: 0;
+}
+label{
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: left;
+    }
+label:hover{
+     background-color: rgba(255, 239, 196, 0.829);
+     
+     }
+button{
+    margin-top: 15px;
+    background-color: hsl(0, 100%, 68%);
+    color: white;
+    font-size: 1.5em;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 80%;
+}
+button:hover{
+    background-color: hsl(0, 100%, 50%);
+    box-shadow: 5px 5px 15px hsl(0, 0%, 0%, 0.6);
+}
+#result{
+    font-size: 1.75em;
+    font-weight: bold;
+}
+/*footer area starts here*/
+.footer_area{
+    height: 100px;
+    width: 100%;
+    background-color: #081828;
+    font-family:"Roboto", serif;
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+}
+
+.footer_bottom{
+    border: 2px solid white;
+    border-radius: 8px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 85px 40px;
+    height: 160px;
+}
+.footer_bottom h3{
+    
+    padding-bottom: 20px;
+}
+.subscribe input{
+    background-color: #394653;
+    padding: 22px 100px ;
+    border-radius: 6px;
+    
+}
+.subscribe input #email{
+    color: white;
+}
+#sub_btn{
+    background-color: #ff6b81;
+    color: white;
+    font-family:"Roboto", serif;
+    font-weight: bold;
+    font-size: 17px;
+    margin-left: 20px;
+}
+#sub_btn:hover{
+    background-color: white;
+    color: #ff6b81;
+    
+}
+.copyright{
+    margin-top: 15px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.container{
+    padding: 0;
+    margin: 0 auto;
+    width: 1270px;
+}
+
+
+/*footer area ends here*/
